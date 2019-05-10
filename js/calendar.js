@@ -141,7 +141,7 @@
 			} else {
 
 		  function DayNumber(n) {
-		  	let labelList = ["Понидельник, ", "Вторник, ", "Среда, ", "Четверг, ", "Пятница, ", "Субота, ", "Воскресенье, "];
+		  	let labelList = ["Понидельник, ", "Вторник, ", "Среда, ", "Четверг, ", "Пятница, ", "Суббота, ", "Воскресенье, "];
 		    let number = document.createElement('div');
 		    if (labelCalc < 7) {
 		    	number.className = 'cld-number';
